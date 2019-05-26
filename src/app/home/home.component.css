@@ -1,0 +1,143 @@
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+.imgCover{
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+    ),    
+    url("/assets/images/cover.jpg");
+        background-color: #cccccc;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;    
+    
+}
+.imgCover-text {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -50%);
+    color: white;
+  }
+  .imgCover-text>h1{
+    font-size:80px;
+    font-weight:normal;
+  }
+  .navLogo{
+      font-size:50px;  
+    }
+     
+   .processBackground{
+    background-color: #e9e9e9;
+   }
+
+input[type="text"],
+select.form-control,
+textarea  {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #CCC;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input[type="text"]:focus,
+select.form-control:focus,
+textarea  {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.imgBottom{
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+    ),  url("/assets/images/bottomImage.jpg");
+        background-color: #cccccc;
+        height: 60vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top:20px;
+        color:white; 
+        font-size: 16px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #cccccc;
+  }
+  .indicator{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+      background-color: #8a8686;
+  }
+ .topbtn{
+     background-color:transparent;
+     border-color:rgb(138, 132, 132);
+ }
+ .topbtn:hover{
+    background-color:transparent;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 3.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-color: rgb(113, 185, 233);
+    width:70px;
+    
+  } 
+  .futa{
+    color:white;
+  }
+
+  #aboutHr{
+    margin-left:0px;   
+    margin-top: 0.5em; 
+    margin-bottom: 1.5em;
+  }
+
+  .carouselImage{
+      width:100px;
+      height:100px;
+  }
+
+  .navButtons{
+    background:transparent; padding:4px;  font-size:12px; border:none;
+  }
+  
+  .navButtons:focus, .navButtons:active {
+    outline: none !important;
+    box-shadow: none !important;
+    background-color:none !important;
+  }
+  
+/*Media queries*/
+  @media screen and (max-width: 1020px) {
+    .imgCover-text>h1{
+        font-size: 60px;
+    }
+  }
+
+  @media screen and (max-width: 535px) {
+     
+    .imgCover-text>h1{
+        font-size: 40px;
+    }
+    .imgBottom{
+        font-size: 14px;
+    }
+  }
+  

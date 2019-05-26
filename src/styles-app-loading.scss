@@ -1,0 +1,10 @@
+.app-loading {
+    .logo {
+      width: 100px;
+      height: 100px;
+      
+      // this way asset gets processed by webpack and image size need adjusting
+      background: url(./assets/images/cogs-gear.png) center center no-repeat; background-size:50px; height:100vh;
+    }
+  }
+  
