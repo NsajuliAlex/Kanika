@@ -56,7 +56,15 @@ describeIssues: ['', Validators.minLength(10) ]
           icon: ' fa-google-plus-square'
          }
       ],
-      navigationItems: ['Home', 'Book Service', 'How We Work', 'AboutUs', 'Brands']
+      navigationItems: [
+        {linkid: 'home', name: 'Home'},
+        {linkid: 'bookForm', name: 'Book Service'},
+        {linkid: 'procedure', name: 'How We Work'},
+        {linkid: 'aboutUs', name: 'AboutUs'},
+        {linkid: 'brands', name: 'Brands'},
+
+        // 'Book Service', 'How We Work', 'AboutUs', 'Brands']
+      ]
     };
 
     this.aboutus = {
